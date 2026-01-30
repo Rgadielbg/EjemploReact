@@ -5,7 +5,6 @@ import instagram from "./assets/instagram.png";
 
 import "./Encabezado.css";
 
-
 function Encabezado() {
   return (
     <header className="encabezado">
@@ -24,14 +23,10 @@ function Encabezado() {
         </ul>
       </nav>
 
-
-
-     <div className="redes">
-    <img src={facebook} alt="Facebook"/>
-    <img src={whatsapp} alt="Whatsapp"/>
-    <img src={instagram} alt="Instagram"/>
-
-        <div/>
+      <div className="redes">
+        <img src={facebook} alt="Facebook" />
+        <img src={whatsapp} alt="Whatsapp" />
+        <img src={instagram} alt="Instagram" />
       </div>
 
     </header>
