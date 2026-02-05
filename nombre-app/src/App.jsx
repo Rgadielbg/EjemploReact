@@ -1,6 +1,7 @@
 import Encabezado from "./Encabezado";
 import Expresiones from "./Expresiones";
 import Cards from "./Cards";
+import Pie from "./pie";
 
 function App() {
   return (
@@ -11,12 +12,17 @@ function App() {
       <Cards />
 
       <Expresiones />
+     
 
       <h1>5C DSM</h1>
-      <h2>Yaneth Garrido Hernandez</h2>
+      <h2>rgadielbg</h2>
+      <Pie />
     </div>
+
+    
   );
+  
 }
 
-
+ 
 export default App;

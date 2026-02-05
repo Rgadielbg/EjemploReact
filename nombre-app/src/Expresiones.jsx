@@ -1,6 +1,7 @@
+import  "./Expreciones.css";
 function Expresiones() {
-    const nombre='Yaneth';
-    const apellido='Garrido Hernandez';
+    const nombre='rgadielbg';
+    const apellido='BG';
 
 
     return(
@@ -14,8 +15,8 @@ function Expresiones() {
 
 function Lista(){
     const users=[
-        {id:1,name:'Yaneth',role:'web developer'},
-        {id:2,name:'Gadi',role:'web designer'},
+        {id:1,name:'Gadiel',role:'web developer'},
+        {id:2,name:'Mago',role:'web designer'},
         {id:3,name:'Mario',role:'team leader'},
     ]
     return(
@@ -24,7 +25,7 @@ function Lista(){
                 <tbody>
                     <tr>
                     <th>Nombre</th>
-                    <td>Role</td>
+                   
                     </tr>
                          {
                             users.map(function(user, index){

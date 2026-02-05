@@ -1,7 +1,8 @@
-import miImagen from "./assets/logo.jpg";
+import miImagen from "./assets/logo.png";
 import facebook from "./assets/facebook.png";
 import whatsapp from "./assets/whatsapp.png";
 import instagram from "./assets/instagram.png";
+import linkedin from "./assets/in.png";
 
 import "./Encabezado.css";
 
@@ -27,6 +28,7 @@ function Encabezado() {
         <img src={facebook} alt="Facebook" />
         <img src={whatsapp} alt="Whatsapp" />
         <img src={instagram} alt="Instagram" />
+        <img src={linkedin} alt="LinkedIn" />
       </div>
 
     </header>
