@@ -16,7 +16,7 @@ function Encabezado() {
 
       <nav className="menu">
         <ul>
-          <li><a href="#">Inicio</a></li>
+          <li><a href="#">Iniciooo</a></li>
           <li><a href="#">Acerca de</a></li>
           <li><a href="#">Productos</a></li>
           <li><a href="#">Contactos</a></li>
